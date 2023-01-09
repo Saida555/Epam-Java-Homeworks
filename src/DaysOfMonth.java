@@ -22,7 +22,6 @@ public class DaysOfMonth
             case 2:
                 System.out.println("The number of days for month " + numberOfDays + " is 28");
                 break;
-            default:
         }
     }
 }
