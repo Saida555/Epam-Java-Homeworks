@@ -16,7 +16,7 @@ public class ThreeArrays {
             }
         }
         for ( j = 0; j < arr1.length; j++) {
-            System.out.println(Arrays.toString(arr3));
+            System.out.println(arr3[j]);
         }
     }
 }

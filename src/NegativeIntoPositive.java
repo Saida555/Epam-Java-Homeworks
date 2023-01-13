@@ -17,8 +17,8 @@ public class NegativeIntoPositive {
                 ++counter2;
             }
         }
-        for (int k = 0; k < 1; ++k) {
-            System.out.println(Arrays.toString(arr1));
+        for (int k = 0; k < arr1.length; ++k) {
+            System.out.println(arr1[k]);
         }
         System.out.println("The number of changes is " + counter1 + ".");
         System.out.println("The number of non negative numbers in original array is " + counter2 + ".");
