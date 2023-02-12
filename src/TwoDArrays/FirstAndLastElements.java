@@ -1,3 +1,5 @@
+package TwoDArrays;
+
 public class FirstAndLastElements {
     public static void main(String[] args) {
 

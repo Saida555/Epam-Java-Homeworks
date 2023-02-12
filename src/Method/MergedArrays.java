@@ -1,10 +1,12 @@
+package Method;
+
 import java.util.Arrays;
 
 public class MergedArrays {
     public static void main(String[] args) {
         int matrix[][] = {
                 {1, 2, 3},
-                {5, 6, 7}
+                {5, 6, 7},
         };
         int[] result = mergeArrays(matrix);
         for (int i = 0; i < result.length; i++) {
@@ -13,7 +15,11 @@ public class MergedArrays {
     }
 
     public static int[] mergeArrays(int[][] matrix) {
-        int[] arr = new int[matrix[0].length + matrix[1].length];
+        int length = 0;
+        for (int i=0; i<matrix.length; i++){
+            length+=matrix[i].length;
+        }
+        int[] arr = new int[length];
         int index = 0;
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
