@@ -5,9 +5,8 @@ class House {
     double area2;
     double area3;
     int storey;
-    String nameOfOwner;
+    String nameOfOwner = "John Doe";
 
     House() {
-        nameOfOwner = "John Doe";
     }
 }
