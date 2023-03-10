@@ -1,8 +1,6 @@
 package ObjectsAndClasses.Sportsman;
 
 public class Sportsman {
-    int[] contestScore;
-
     public int averageScore(int[] contestScore) {
         int sum = 0;
         int average = 0;
